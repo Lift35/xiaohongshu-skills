@@ -1,0 +1,13 @@
+interface:
+  display_name: xiaohongshu cover
+  short_description: 为小红书笔记或视频生成高点击意愿的封面方案。适用于用户需要提炼封面主标题、副标题、可信证据、信息层级、版式、视觉方向，优化已有封面，或直接生成封面图时。先读取笔记主题、内容、目标人群、核心价值和可信证据；信息不足时只提出少量关键问题；随后输出
+    4 套真正不同的方案，并按照手机缩略图可读性、一秒理解、单一视觉中心、证据真实和删减冗余进行验收。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
