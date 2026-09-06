@@ -1,7 +1,7 @@
 interface:
   display_name: 小红书合规官
-  short_description: 发布前审核小红书内容与导流风险，定位问题并给出保留原意的修改建议
-  default_prompt: 请使用 $xiaohongshu-compliance-skill 审核以下小红书待发布内容，指出风险、依据和具体改法。
+  short_description: "审核小红书链接或完整视频，输出总风险分、五项得分及定位整改建议"
+  default_prompt: "请使用 $xiaohongshu-compliance-skill 审核我提供的小红书链接或完整视频，给出总风险分、各项得分、审核覆盖范围和具体修改建议。"
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
