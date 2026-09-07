@@ -1,0 +1,13 @@
+interface:
+  display_name: 知识视频脚本创作
+  short_description: 把已确认的大纲转成自然可讲的逐字稿，以及帮助观众理解的轻量分镜稿。
+  default_prompt: 使用 $knowledge-video-script，将这份已确认的大纲转成逐字稿和轻量分镜，标出需要我补充的材料。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
