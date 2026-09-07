@@ -1,0 +1,13 @@
+interface:
+  display_name: 内容结构化创作
+  short_description: 将零散问题、资料与观点编排成适合观众学习的详细内容大纲，不扩写逐字稿
+  default_prompt: 请使用 $xiaohongshu-content-outline，把我的主题、零散问题或资料编排成详细大纲，注明例子、过渡和信息缺口，不写逐字稿。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
