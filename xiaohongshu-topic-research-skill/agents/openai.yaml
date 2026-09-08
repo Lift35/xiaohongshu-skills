@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书选题与研究"
+  short_description: "把模糊概念转成明确选题，主动核实关键结论并整理证据与素材"
+  default_prompt: "使用 $xiaohongshu-topic-research，把我的模糊想法变成适合做一期小红书视频的选题，先提供切口供我选择，再研究并整理可信证据。"
