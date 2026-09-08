@@ -1,7 +1,7 @@
 interface:
   display_name: 小红书内容总控
-  short_description: 统筹小红书内容全流程，识别阶段、编排专业 Skill、管理确认与交接
-  default_prompt: 使用 $xiaohongshu-content-orchestrator，从我目前已有的材料开始，统筹完成这期小红书内容。
+  short_description: 统筹小红书内容全流程，并默认生成可录屏的 HTML 演示稿
+  default_prompt: 使用 $xiaohongshu-content-orchestrator，从我目前已有的材料开始，统筹完成这期小红书内容，并将演示稿生成为 HTML。
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
