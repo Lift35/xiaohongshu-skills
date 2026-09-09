@@ -1,0 +1,4 @@
+interface:
+  display_name: "旁白驱动的知识视频制作"
+  short_description: "根据真实录音安排画面节奏，生成同步演示稿、带字幕视频和独立字幕"
+  default_prompt: "使用 $narration-video，根据我的录音和演示稿生成音画同步的竖屏视频，附带字幕和独立 SRT 文件。"
